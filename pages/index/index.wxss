@@ -1,0 +1,58 @@
+/**index.wxss**/
+
+.section {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  text-align: right;
+  border-bottom: 1px #ddd solid;
+}
+.section>image {
+  position: absolute;
+  top:10px;
+  left: 10px;
+  width: 45px;
+  height: 45px;
+}
+.section>input {
+  position: absolute;
+  top:0;
+  right: 0;
+  width: 100%;
+  padding: 10px 10px 30px 100px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.section label {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 8px;
+  color: #aaa;
+}
+
+.text-section {
+  color: #aaa;
+  height: 60px;
+  line-height: 60px;
+  font-size: 12px;
+  padding: 10px;
+  border-bottom: 1px #ddd solid;
+}
+
+.error-section {
+  color: #990000;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.chart-section {
+  padding: 10px 0;
+}
+
+.chart-section canvas {
+  margin: auto;
+  width: 600px;
+  height: 220px;
+}

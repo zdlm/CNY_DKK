@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="text-section">
+    <text>Data comes from currency converter api</text>
+  </view>
+  <view class="section">
+    <image src="../icons/china-flag.png"></image>
+    <input value='{{rmb}}' bindinput='watchRmbInput' type='digit' placeholder='{{initRmb}}'></input>
+    <label>Yuan ¥</label>
+  </view>
+  <view class="section">
+    <image src='../icons/denmark-flag.png'></image>
+    <input value='{{dkk}}' bindinput='watchDkkInput' type='digit' placeholder='{{initDkk}}'></input>
+    <label>Krone Kr</label>
+  </view>
+  <view class="chart-section">
+   <canvas canvas-id="baseline"></canvas>
+</view>
+  <view class="error-section">
+    <text>{{error}}</text>
+  </view>
+</view>
